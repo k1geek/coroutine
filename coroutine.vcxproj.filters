@@ -15,8 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="coroutine.cpp">
+    <ClCompile Include="coroutine.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="coroutine.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
