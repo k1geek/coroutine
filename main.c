@@ -7,6 +7,7 @@
 #include <stdint.h>
 int main() {
 	printf("%d",123);
+	printf("%s","123");
 	char a = getchar();
 	return  0;
 }
