@@ -13,9 +13,9 @@ struct schedule * coroutine_open(void);
 void coroutine_close(struct schedule *);
 
 int coroutine_new(struct schedule *,coroutine_func,void* ud);
-int coroutine_resume(struct schedule *,int id)
-int coroutine_status(struct schedule *,int id)
-int coroutine_running(struct schedule *)
-int coroutine_yield(struct schedule *)
+int coroutine_resume(struct schedule *,int id);
+int coroutine_status(struct schedule *,int id);
+int coroutine_running(struct schedule *);
+int coroutine_yield(struct schedule *);
 
 #endif
